@@ -23,7 +23,7 @@ DATABASE_URL = os.getenv("DATABASE_URL_POOLED") or os.getenv("DATABASE_URL", "")
 # GÜVENCE KANALI (AdsGram Moderasyon Şartı)
 GUARANTEE_CHANNEL = "https://t.me/nabistarappguvence"
 
-ADSGRAM_UNIT_ID = os.getenv("ADSGRAM_UNIT_ID", "bot-58438")
+ADSGRAM_UNIT_ID = os.getenv("ADSGRAM_UNIT_ID", "bot-58477")
 ADSGRAM_BLOCK_ID = ADSGRAM_UNIT_ID.replace("bot-", "").strip()
 ADSGRAM_TOKEN = os.getenv("ADSGRAM_TOKEN", "")
 ADSGRAM_REWARD_SECRET = os.getenv("ADSGRAM_REWARD_SECRET", "nabistar_gizli_anahtar_123")
